@@ -1,0 +1,27 @@
+{
+  "name": "weather-reminder",
+  "version": "1.0.0",
+  "description": "给女朋友做一个公众号提醒🤗",
+  "author": "米斯特杜",
+  "license": "MIT",
+  "scripts": {
+    "serve": "node ./src/index.js",
+    "lint": "eslint src --fix --ext .js",
+    "prettier": "prettier --write ."
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "10.0.1",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.0.2",
+    "eslint": "7.32.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "node-schedule": "^2.1.0",
+    "prettier": "^2.7.1",
+    "superagent": "^8.0.0"
+  }
+}
